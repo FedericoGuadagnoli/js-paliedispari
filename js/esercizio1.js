@@ -33,7 +33,7 @@ function isPalindroma(){
     }
 }
 
-
+// Aggiungo l'evento al click del bottone
 button.addEventListener ('click', function(){
     console.log(button);
     messageElement.innerText = isPalindroma();
