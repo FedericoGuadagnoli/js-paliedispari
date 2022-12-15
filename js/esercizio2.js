@@ -13,3 +13,8 @@ const input = document.getElementById('number');
 const button = document.getElementById('button');
 const message = document.getElementById('message');
 
+// Creo una funzione per generare un numero casuale tra 1 e 5
+function getRandomNumber (min = 1, max = 5){
+    const randomNumber = Math.floor(Math.random() * max) + min;
+    console.log(randomNumber);
+}
